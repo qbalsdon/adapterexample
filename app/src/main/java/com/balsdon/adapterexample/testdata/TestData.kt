@@ -1,0 +1,50 @@
+package com.balsdon.adapterexample.testdata
+
+
+data class TestPoint(val x: Float, val y: Float, val sleepMillis: Long)
+
+private const val delay = 400L
+
+val testPoints = listOf(
+    TestPoint(572.959F, 220.96484F, delay),
+    TestPoint(572.959F, 220.96484F, delay),
+    TestPoint(911.9531F, 228.91406F, delay),
+    TestPoint(911.9531F, 228.91406F, delay),
+    TestPoint(1317.9199F, 224.93945F, delay),
+    TestPoint(1317.9199F, 224.93945F, delay),
+    TestPoint(1325.918F, 591.9585F, delay),
+    TestPoint(1325.918F, 591.9585F, delay),
+    TestPoint(1309.9219F, 978.9409F, delay),
+    TestPoint(1309.9219F, 978.9409F, delay),
+    TestPoint(911.9531F, 866.9292F, delay),
+    TestPoint(911.9531F, 866.9292F, delay),
+    TestPoint(892.96875F, 603.8823F, delay),
+    TestPoint(892.96875F, 603.8823F, delay),
+    TestPoint(568.95996F, 603.8823F, delay),
+    TestPoint(568.95996F, 603.8823F, delay),
+    TestPoint(548.96484F, 1582.9009F, delay),
+    TestPoint(548.96484F, 1582.9009F, delay),
+    TestPoint(290.9619F, 1570.8867F, delay),
+    TestPoint(290.9619F, 1570.8867F, delay),
+    TestPoint(263.9795F, 1876.8413F, delay),
+    TestPoint(263.9795F, 1876.8413F, delay),
+    TestPoint(695.9619F, 1888.8555F, delay),
+    TestPoint(695.9619F, 1888.8555F, delay),
+    TestPoint(687.96387F, 2189.8418F, delay),
+    TestPoint(687.96387F, 2189.8418F, delay),
+    TestPoint(1105.9277F, 2193.9067F, delay),
+    TestPoint(1105.9277F, 2193.9067F, delay),
+    TestPoint(1031.9678F, 1876.8413F, delay),
+    TestPoint(1031.9678F, 1876.8413F, delay),
+    TestPoint(966.9287F, 1590.8501F, delay),
+    TestPoint(966.9287F, 1590.8501F, delay),
+    TestPoint(1070.9473F, 1199.8931F, delay),
+    TestPoint(1070.9473F, 1199.8931F, delay),
+    TestPoint(1124.956F, 920.94775F, delay),
+    TestPoint(1124.956F, 920.94775F, delay),
+    TestPoint(1205.9473F, 595.9331F, delay),
+    TestPoint(1205.9473F, 595.9331F, delay),
+    TestPoint(1332.9492F, 584.9126F, delay),
+    TestPoint(1332.9492F, 584.9126F, delay),
+    TestPoint(1329.917F, 216.8999F, delay),
+    )
